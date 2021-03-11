@@ -4,7 +4,7 @@
     "id": "style_battoujutsu",
     "name": { "str": "Баттоуджицу" },
     "description": "Техника быстрого убийства. \n\n Стиль боя на мечах, основанный на ловкости, с упором на точные и мощные атаки. Большие бонусы к точности, режущему урону, пробиванию брони и уклонению - все зависит от вашей ловкости. Через некоторое время становится чрезвычайно OP, как и положено йодзинбо или уличным самураям.",
-    "initiate": [ "Вы размахиваете своим мечом.", "%s готовится быть разрезанным на кубики." ],
+    "initiate": [ "Вы размахиваете своим мечом.", "%s готовится нарезать мелкими кубиками." ],
     "autolearn": [ [ "cutting", "1" ] ],
     "primary skill": "cutting",
     "allow_melee": true,
@@ -25,8 +25,8 @@
       },
       {
         "id": "buff_traininglv1_static",
-        "name": "Level 1 assassination training",
-        "description": "Practise makes perfect.\n\n Boosts speed and cutting damage for every level of Cutting Weapons skill.",
+        "name": "Уровень навыка убийства 1-го уровня",
+        "description": "Практика и только практика приведут к совершенству.\n\n Повышает скорость и сокращает получаемый урон с каждым уровнем навыка «Режущее оружие».",
         "skill_requirements": [ { "name": "cutting", "level": 1 } ],
         "melee_allowed": true,
         "bonus_dodges": 1,
@@ -39,8 +39,8 @@
       },
       {
         "id": "buff_traininglv2_static",
-        "name": "Level 2 assassination training",
-        "description": "Practise makes perfect.",
+        "name": "Уровень навыка убийства 2-го уровня",
+        "description": "Практика ведет к совершенству... А вам до него как до Китая",
         "skill_requirements": [ { "name": "cutting", "level": 2 } ],
         "melee_allowed": true,
         "bonus_dodges": 2,
@@ -53,8 +53,8 @@
       },
       {
         "id": "buff_traininglv3_static",
-        "name": "Level 3 assassination training",
-        "description": "Practise makes perfect.",
+        "name": "Уровень навыка убийства 3-го уровня",
+        "description": "Практика ведет к совершенству... Но вы наконец осознали что вы не совершенство.",
         "skill_requirements": [ { "name": "cutting", "level": 3 } ],
         "melee_allowed": true,
         "bonus_dodges": 3,
@@ -67,8 +67,8 @@
       },
       {
         "id": "buff_traininglv4_static",
-        "name": "Level 4 assassination training",
-        "description": "Practise makes perfect.",
+        "name": "Уровень навыка убийства 4-го уровня",
+        "description": "Практика ведет к совершенству... И напоминая это себе вы поняли важную вещь, совершеноство не достижимо а потому его нет, и вы продвигаете своё мастерство дальше.",
         "skill_requirements": [ { "name": "cutting", "level": 4 } ],
         "melee_allowed": true,
         "bonus_dodges": 4,
@@ -81,8 +81,8 @@
       },
       {
         "id": "buff_traininglv5_static",
-        "name": "Level 5 assassination training",
-        "description": "Practise makes perfect.",
+        "name": "Уровень навыка убийства 5-го уровня",
+        "description": "Практика ведет к совершенству... И вспоминая то как часто вы спотыкались, и умудрялись выжить, вы сделали вывод 'У меня получается всё лучше и лучше'.",
         "skill_requirements": [ { "name": "cutting", "level": 5 } ],
         "melee_allowed": true,
         "bonus_dodges": 5,
@@ -95,8 +95,8 @@
       },
       {
         "id": "buff_traininglv6_static",
-        "name": "Level 6 assassination training",
-        "description": "Practise makes perfect.",
+        "name": "Уровень навыка убийства 6-го уровня",
+        "description": "Практика ведет к совершенству... Теперь эти слова раздражают вас намного меньше, чем раньше.",
         "skill_requirements": [ { "name": "cutting", "level": 6 } ],
         "melee_allowed": true,
         "bonus_dodges": 6,
@@ -109,8 +109,8 @@
       },
       {
         "id": "buff_traininglv7_static",
-        "name": "Level 7 assassination training",
-        "description": "Practise makes perfect.",
+        "name": "Уровень навыка убийства 7-го уровня",
+        "description": "Практика ведет к совершенству... Однажды посмотрев на своё отражение в разбитом зеркале, вы поняли что теперь вы не тот неудачник что раньше.",
         "skill_requirements": [ { "name": "cutting", "level": 7 } ],
         "melee_allowed": true,
         "bonus_dodges": 7,
@@ -123,8 +123,8 @@
       },
       {
         "id": "buff_traininglv8_static",
-        "name": "Level 8 assassination training",
-        "description": "Practise makes perfect.",
+        "name": "Уровень навыка убийства 8-го уровня",
+        "description": "Практика ведет к совершенству... И вы считаете что эти слова можно забыть.",
         "skill_requirements": [ { "name": "cutting", "level": 8 } ],
         "melee_allowed": true,
         "bonus_dodges": 8,
@@ -137,8 +137,8 @@
       },
       {
         "id": "buff_traininglv9_static",
-        "name": "Level 9 assassination training",
-        "description": "Practise makes perfect.",
+        "name": "Уровень навыка убийства 9-го уровня",
+        "description": "Вы чувствуете что стали практическим мастером, но вас не отпускают некоторые вопросы по поводу вашего стиля.",
         "skill_requirements": [ { "name": "cutting", "level": 9 } ],
         "melee_allowed": true,
         "bonus_dodges": 9,
@@ -151,8 +151,8 @@
       },
       {
         "id": "buff_traininglv10_static",
-        "name": "Level 10 assassination training",
-        "description": "Practise makes perfect.",
+        "name": "Уровень навыка убийства 10-го уровня",
+        "description": "Вот, уже почти конец, вам нет практически равных в вашем мастертсве.",
         "skill_requirements": [ { "name": "cutting", "level": 10 } ],
         "melee_allowed": true,
         "bonus_dodges": 10,
@@ -165,8 +165,8 @@
       },
       {
         "id": "buff_traininglv11_static",
-        "name": "Level 11 assassination training",
-        "description": "Practise makes perfect.",
+        "name": "Уровень навыка убийства 11-го уровня",
+        "description": "Вы не знаете, что ещё вам нужно знать, но вы уверены что это ещё не конец.",
         "skill_requirements": [ { "name": "cutting", "level": 11 } ],
         "melee_allowed": true,
         "bonus_dodges": 11,
@@ -179,8 +179,8 @@
       },
       {
         "id": "buff_traininglv12_static",
-        "name": "Level 12 assassination training",
-        "description": "Practise makes perfect.",
+        "name": "Уровень навыка убийства 12-го уровня",
+        "description": "Практика ведёт к совершенству, и вы само совершенство. Вам больше нечего выучивать, вы сам образ мастерства.",
         "skill_requirements": [ { "name": "cutting", "level": 12 } ],
         "melee_allowed": true,
         "bonus_dodges": 12,
@@ -195,8 +195,8 @@
     "onhit_buffs": [
       {
         "id": "buff_training_onhit",
-        "name": "Muscle Memory",
-        "description": "Every successful hit gives you a small temporary improvement which stacks.",
+        "name": "Мышечная память",
+        "description": "Каждое успешное попадание дает вам небольшой складируемый бонус на короткое время.",
         "unarmed_allowed": true,
         "skill_requirements": [ { "name": "cutting", "level": 3 } ],
         "max_stacks": 99999,
@@ -220,8 +220,8 @@
     "ongethit_buffs": [
       {
         "id": "buff_toughen_ongethit",
-        "name": "What doesn't kill you...",
-        "description": "makes you stronger.",
+        "name": "Что не убивает вас...",
+        "description": "делает вас сильнее.",
         "unarmed_allowed": true,
         "melee_allowed": true,
         "max_stacks": 99999,
@@ -244,8 +244,8 @@
     "onattack_buffs": [
       {
         "id": "buff_tameshigiri_onattack",
-        "name": "Tameshigiri",
-        "description": "Every attack improves your technique.",
+        "name": "Тамэсигири",
+        "description": "Каждая атака улучшает вашу технику.",
         "unarmed_allowed": true,
         "melee_allowed": true,
         "max_stacks": 99999,
@@ -268,8 +268,8 @@
     "onblock_buffs": [
       {
         "id": "buff_tsubaserai_onblock",
-        "name": "Tsuba serai",
-        "description": "You deflect the enemy's attack to open a hole in their defenses.",
+        "name": "Цуба серай",
+        "description": "Вы отражаете атаку врага, чтобы пробить брешь в его защите.",
         "unarmed_allowed": true,
         "melee_allowed": true,
         "max_stacks": 99999,
@@ -292,8 +292,8 @@
     "onpause_buffs": [
       {
         "id": "buff_steel_onpause",
-        "name": "Kuji-in",
-        "description": "You steel yourself with a brief hand meditation as the enemy approaches.",
+        "name": "Куджи-ин",
+        "description": "При приближении врага вы набираете силы с помощью короткой медитации делая ваши атаки руками сильнее.",
         "unarmed_allowed": true,
         "melee_allowed": true,
         "max_stacks": 99999,
@@ -316,8 +316,8 @@
     "oncrit_buffs": [
       {
         "id": "buff_heavycrittraining_oncrit",
-        "name": "Muscle Augmentation",
-        "description": "Every critical hit gives you a small temporary improvement which stacks.",
+        "name": "Мышечный форсаж",
+        "description": "Каждое критическое попадание дает вам небольшой складируемый бонус на короткое время.",
         "unarmed_allowed": true,
         "max_stacks": 99999,
         "buff_duration": 4,
@@ -339,8 +339,8 @@
     "onmove_buffs": [
       {
         "id": "buff_heavycharge_onmove",
-        "name": "Charge",
-        "description": "You reposition yourself to find a tactical advantage.",
+        "name": "Смена позиций",
+        "description": "Вы меняете позицию, чтобы найти тактическое преимущество.",
         "unarmed_allowed": true,
         "melee_allowed": true,
         "max_stacks": 99999,
@@ -363,8 +363,8 @@
     "onkill_buffs": [
       {
         "id": "buff_onthemark_onkill",
-        "name": "Kubikiri",
-        "description": "Every kill makes you more badass.",
+        "name": "Кубикири",
+        "description": "Каждое убийство делает вас ещё сильнее!.",
         "unarmed_allowed": true,
         "melee_allowed": true,
         "flat_bonuses": [
@@ -387,8 +387,8 @@
     "onmiss_buffs": [
       {
         "id": "buff_dairyfarmer_onmiss",
-        "name": "You Fight Like A Dairy Farmer",
-        "description": "You fight like a dairy farmer!",
+        "name": "Вы сражаетесь, как молочный фермер",
+        "description": "Вы сражаетесь, как фермер!",
         "unarmed_allowed": true,
         "mult_bonuses": [ { "stat": "movecost", "scale": 0.0 }, { "stat": "damage", "type": "cut", "scale": 1.5 } ],
         "bonus_dodges": 1,
@@ -417,20 +417,20 @@
   {
     "type": "technique",
     "id": "absword_cow",
-    "name": "You Fight Like A Cow",
+    "name": "Вы сражаетесь, как корова",
     "melee_allowed": true,
     "req_buffs": [ "buff_dairyfarmer_onmiss" ],
     "mult_bonuses": [
       { "stat": "hit", "scaling-stat": "dex", "scale": 1.2 },
       { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 1.2 }
     ],
-    "messages": [ "How appropriate, you fight like a cow!", "%s fights like a cow." ],
+    "messages": [ "Как уместно драться, как корова!", "%s дерется, как корова." ],
     "description": "Miss recovery"
   },
   {
     "type": "technique",
     "id": "absword_annihilated",
-    "name": "Every Enemy Ive Met Ive Annihilated",
+    "name": "Каждый враг, которого я встречал, был уничтожен",
     "req_buffs": [ "buff_dairyfarmer_onmiss" ],
     "skill_requirements": [ { "name": "cutting", "level": 10 } ],
     "mult_bonuses": [
@@ -443,33 +443,33 @@
   {
     "type": "technique",
     "id": "absword_block",
-    "name": "Block",
+    "name": "Блокирование",
     "mult_bonuses": [ { "stat": "movecost", "scale": 0.0 }, { "stat": "block", "scale": 0.5 } ],
-    "messages": [ "You block %s", "<npcname> blocks %s" ],
-    "description": "Medium blocking ability"
+    "messages": [ "Вы блокируете %s", "<npcname> блокируете %s" ],
+    "description": "Средняя блокирующая способность"
   },
   {
     "type": "technique",
     "id": "absword_spin",
-    "name": "Spinning Strike",
+    "name": "Вращающийся удар",
     "unarmed_allowed": true,
     "melee_allowed": true,
     "skill_requirements": [ { "name": "cutting", "level": 4 } ],
     "crit_tec": true,
-    "messages": [ "You slash %s and nearby enemies", "<npcname> slashes %s and everyone nearby" ],
+    "messages": [ "Вы рубите %s и ближайших врагов", "<npcname> режет %s и всех рядом" ],
     "aoe": "spin",
-    "description": "Attack adjacent enemies, crit only, min 4 cutting"
+    "description": "Атакует ближайщих врагов по круговой, нанося только критические удары, минимальный уровнь навыка рубки 4"
   },
   {
     "type": "technique",
     "id": "absword_impale",
-    "name": "Impaling Strike",
+    "name": "Пронзающий удар",
     "melee_allowed": true,
     "skill_requirements": [ { "name": "cutting", "level": 6 } ],
     "crit_tec": true,
-    "messages": [ "You pierce straight through %s", "<npcname> pierces through %s" ],
+    "messages": [ "Вы пронзаете прямо насквозь %s", "<npcname> пронзает %s" ],
     "aoe": "impale",
-    "description": "Attack target and another one behind it, crit only, min 6 cutting"
+    "description": "Атакует цель и еще одну за ней, нанося только критический урон, минимальный уровнь навыка рубки 6"
   },
   {
     "type": "technique",
