@@ -2,9 +2,9 @@
   {
     "type": "MOD_INFO",
     "id": "AbrahmsMA",
-    "name": "Abrahms OP Martial Arts",
+    "name": "Абрамс О.П. Боевые искусства",
     "authors": [ "MrAbrahms" ],
-    "description": "These are quite OP unrefined weapon arts learned purely through experience.",
+    "description": "Это совершенно необработанные OP боевыx искусств, которым можно научиться исключительно на собственном опыте.",
     "category": "martial arts",
     "dependencies": [ "dda" ]
   }
