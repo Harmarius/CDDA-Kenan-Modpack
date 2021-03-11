@@ -2,17 +2,17 @@
   {
     "type": "martial_art",
     "id": "style_battoujutsu",
-    "name": { "str": "Баттоуджицу" }, // Оригинальное название Battoujutsu
-    "description": "Техника быстрого убийства. \n\n Стиль боя на мечах, основанный на ловкости, с упором на точные и мощные атаки. Большие бонусы к точности, режущему урону, пробиванию брони и уклонению - все зависит от вашей ловкости. Через некоторое время становится чрезвычайно OP, как и положено йодзинбо или уличным самураям.", // Ориг "Fast-draw assassination technique. \n\n Dex-based swordfighting style emphasizing accurate and powerful attacks. Large stacking bonuses to accuracy, cutting damage, armor penetration, and dodge, all based on dex. Becomes extremely OP after a while, as befits a yojinbo or street samurai." Я понятия не имею что такое ОР.
-    "initiate": [ "Вы размахиваете своим мечом.", "%s готовится быть разрезанным на кубики." ], // Ориг "You brandish your sword.", "%s gets ready to slice and dice."
+    "name": { "str": "Баттоуджицу" },
+    "description": "Техника быстрого убийства. \n\n Стиль боя на мечах, основанный на ловкости, с упором на точные и мощные атаки. Большие бонусы к точности, режущему урону, пробиванию брони и уклонению - все зависит от вашей ловкости. Через некоторое время становится чрезвычайно OP, как и положено йодзинбо или уличным самураям.",
+    "initiate": [ "Вы размахиваете своим мечом.", "%s готовится быть разрезанным на кубики." ],
     "autolearn": [ [ "cutting", "1" ] ],
     "primary skill": "cutting",
     "allow_melee": true,
     "static_buffs": [
       {
         "id": "buff_ichimonji_static",
-        "name": "Ишимондзи-но камаэ", // Ориг "Ichimonji no kamae"
-        "description": "Вы обнажаете меч и входите в свою основную боевую стойку.", // Ориг "You draw your sword  and enter your primary fighting stance."
+        "name": "Ишимондзи-но камаэ",
+        "description": "Вы обнажаете меч и входите в свою основную боевую стойку.",
         "melee_allowed": true,
         "bonus_dodges": 1,
         "flat_bonuses": [ { "stat": "dodge", "scaling-stat": "dex", "scale": 2 }, { "stat": "hit", "scaling-stat": "dex", "scale": 2 } ],
