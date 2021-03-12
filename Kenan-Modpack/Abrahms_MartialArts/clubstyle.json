@@ -347,25 +347,25 @@
   {
     "type": "technique",
     "id": "abclub_feint",
-    "name": "Feint",
+    "name": "Финт",
     "skill_requirements": [ { "name": "bashing", "level": 2 } ],
     "unarmed_allowed": true,
     "melee_allowed": true,
     "defensive": true,
     "miss_recovery": true,
-    "messages": [ "You feint at %s.", "<npcname> feints at %s." ]
+    "messages": [ "Вы делаете финт на %s.", "<npcname> выполняет финты на %s." ]
   },
   {
     "type": "technique",
     "id": "abclub_break",
-    "name": "Grab Break",
+    "name": "Разрыв хватки",
     "unarmed_allowed": true,
     "melee_allowed": true,
     "defensive": true,
     "grab_break": true,
     "stun_dur": 1,
     "knockback_dist": 1,
-    "messages": [ "The %s tries to grab you, but you knock it away!", "The %s tries to grab <npcname>, but they break its grab!" ]
+    "messages": [ "%s пытается схватить вас, но вы прерываете его попытку схватить вас!", "%s пытается схватить <npcname>, но <npcname> ломает захват!" ]
   },
   {
     "type": "technique",
@@ -387,8 +387,8 @@
   {
     "type": "technique",
     "id": "abclub_elbow",
-    "name": "Elbow Strike",
-    "messages": [ "You slam your elbow into %s", "<npcname> slams their elbow into %s" ],
+    "name": "Удар локтем",
+    "messages": [ "Вы врезаете локтем %s", "<npcname> врезает с локтя по %s" ],
     "skill_requirements": [ { "name": "unarmed", "level": 1 } ],
     "unarmed_allowed": true,
     "crit_tec": true,
@@ -397,8 +397,8 @@
   {
     "type": "technique",
     "id": "abclub_counter",
-    "name": "Counterattack",
-    "messages": [ "You dodge, and swing wildly at %s with a mighty blow", "<npcname> dodges, and hits %s hard" ],
+    "name": "Контр-атака",
+    "messages": [ "Вы уворачиваетесь и замахиваетесь %s мощным ударом", "<npcname> уклоняется и сильно бьет %s" ],
     "unarmed_allowed": true,
     "dodge_counter": true,
     "crit_ok": true,
