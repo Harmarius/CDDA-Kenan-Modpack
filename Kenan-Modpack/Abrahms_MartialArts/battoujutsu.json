@@ -474,48 +474,48 @@
   {
     "type": "technique",
     "id": "absword_brutal",
-    "name": "Brutal Strike",
+    "name": "Жестокий удар",
     "unarmed_allowed": true,
     "melee_allowed": true,
     "skill_requirements": [ { "name": "cutting", "level": 5 } ],
     "crit_tec": true,
     "stun_dur": 1,
     "knockback_dist": 1,
-    "messages": [ "You knock %s down with a brutal blow to the face.", "<npcname> knocks %s down" ],
-    "description": "Stun 1 turn, knockback 1 tile, crit only"
+    "messages": [ "Вы сбиваете %s с ног жестким ударом по лицу.", "<npcname> сбивает %s с ног." ],
+    "description": "Оглушение на 1 ход, отбрасывание на 1 плитку, только критический урон"
   },
   {
     "type": "technique",
     "id": "absword_criticalblow",
-    "name": "Critical Strike",
+    "name": "Критический удар",
     "unarmed_allowed": true,
     "melee_allowed": true,
     "mult_bonuses": [ { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 99 } ],
     "crit_tec": true,
     "weighting": -250,
-    "messages": [ "You slice %s through the heart or physiological equivalent", "<npcname> slices through %s" ],
-    "description": "Cut damage multiplied by dex * 99, crit only"
+    "messages": [ "Вы режете %s через сердце или физиологический эквивалент", "<npcname> разрезает %s" ],
+    "description": "Разрезанный урон, умноженный на dex * 99, только критический урон"
   },
   {
     "type": "technique",
     "id": "absword_feint",
-    "name": "Feint",
+    "name": "Финт",
     "skill_requirements": [ { "name": "cutting", "level": 2 } ],
     "unarmed_allowed": true,
     "melee_allowed": true,
     "defensive": true,
     "miss_recovery": true,
-    "messages": [ "You feint at %s.", "<npcname> feints at %s." ]
+    "messages": [ "Вы делаете финт на %s.", "<npcname> выполняет финты на %s." ]
   },
   {
     "type": "technique",
     "id": "absword_break",
-    "name": "Grab Break",
+    "name": "Разрыв хватки",
     "unarmed_allowed": true,
     "melee_allowed": true,
     "defensive": true,
     "grab_break": true,
-    "messages": [ "The %s tries to grab you, but you break its grab!", "The %s tries to grab <npcname>, but they break its grab!" ]
+    "messages": [ "%s пытается схватить вас, но вы прерываете его попытку схватить вас!", "%s пытается схватить <npcname>, но <npcname> ломает захват!" ]
   },
   {
     "type": "technique",
@@ -529,8 +529,8 @@
   {
     "type": "technique",
     "id": "absword_kneesweep",
-    "name": "Sweep Kick",
-    "messages": [ "You hit %s in the back of the knees, knocking them down", "<npcname> knocks %s down with a hit to the knees" ],
+    "name": "Разбитие коленей ударом руки",
+    "messages": [ "Вы ударили %s сзади в колени, сбив цель", "<npcname> сбивает %s мощным ударом вниз по коленям" ],
     "skill_requirements": [ { "name": "unarmed", "level": 2 } ],
     "unarmed_allowed": true,
     "weighting": 2,
@@ -540,8 +540,8 @@
   {
     "type": "technique",
     "id": "absword_lunge",
-    "name": "Sword Lunge",
-    "messages": [ "You lunge at %s", "<npcname> lunges at %s" ],
+    "name": "Выпад мечом",
+    "messages": [ "Вы делаете выпад на %s", "<npcname> выпады на %s" ],
     "skill_requirements": [ { "name": "cutting", "level": 2 } ],
     "melee_allowed": true,
     "crit_ok": true,
@@ -588,8 +588,8 @@
   {
     "type": "technique",
     "id": "absword_elbow",
-    "name": "Elbow Strike",
-    "messages": [ "You slam your elbow into %s", "<npcname> slams their elbow into %s" ],
+    "name": "Удар локтем",
+    "messages": [ "Вы врезаете локтем %s", "<npcname> врезает с локтя по %s" ],
     "skill_requirements": [ { "name": "unarmed", "level": 1 } ],
     "unarmed_allowed": true,
     "crit_tec": true,
@@ -599,8 +599,8 @@
   {
     "type": "technique",
     "id": "absword_counter",
-    "name": "Counterattack",
-    "messages": [ "You dodge, and swing wildly at %s with a mighty blow", "<npcname> dodges, and hits %s hard" ],
+    "name": "Контр-атака",
+    "messages": [ "Вы уворачиваетесь и замахиваетесь %s мощным ударом", "<npcname> уклоняется и сильно бьет %s" ],
     "unarmed_allowed": true,
     "dodge_counter": true,
     "crit_ok": true,
