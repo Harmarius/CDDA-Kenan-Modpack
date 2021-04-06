@@ -1,0 +1,37 @@
+[
+  {
+    "names" : {
+        "bituminous coal" : "каменный уголь",
+        "halite" : "галит",
+        "niter" : "селитра",
+        "brimstone" : "сера",
+        "native copper" : "самородная медь",
+        "native silver" : "самородное серебро",
+        "native gold" : "самородное золото",
+        "native alumimum" : "самородный аллюминий",
+        "cassiterite" : "касситерит",
+        "galena" : "галенит",
+        "hematite" : "гематит",
+        "black sand" : "черный песок"
+    },
+    "descriptions" : {
+        "A vein of soft coal." : "Залежи угля.",
+        "A vein of salt." : "Залежи соли.",
+        "A vein of saltpeter." : "Залежи селитры.",
+        "A vein of sulfur." : "Залежи серы.",
+        "A vein of copper." : "Медная жила.",
+        "A vein of silver." : "Серебряная жила.",
+        "A glittering vein of gold." : "Сверкающая золотая жила.",
+        "A vein of alumimum." : "Алюминиевая жила",
+        "A deposit of cassiterite." : "Залежи касситерита.",
+        "A deposit of galena." : "Залежи галенита.",
+        "A deposit of hematite." : "Залежи гематита.",
+        "A patch of dark, heavy sand that could be quite useful, if it was extracted properly." : "Здесь земля покрыта темный тяжелым песком. Из него можно извлечь множество полезных ресурсов, если знать как."
+    },
+    "sound" : {
+        "crash!" : "хрясь!",
+        "whump!" : "бум!",
+        "thump" : "стук"
+    }
+  }
+]

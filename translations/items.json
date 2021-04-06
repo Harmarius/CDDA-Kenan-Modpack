@@ -1,0 +1,36 @@
+[
+  {
+    "names" : {
+        "chunk of native copper" : "кусок самородной меди",
+        "chunks of native copper" : "куски самородной меди",
+        "chunk of native silver" : "кусок самородного серебра",
+        "chunks of native silver" : "куски самородного серебра",
+        "chunk of native gold" : "кусок самородного золота",
+        "chunks of native gold" : "куски самородного золота",
+        "chunk of native aluminum" : "кусок самородного алюминия",
+        "chunks of native aluminum" : "куски алюминиевой алюминия",
+        "chunk of cassiterite" : "кусок касситерита",
+        "chunks of cassiterite" : "куски касситерита",
+        "chunk of galena" : "кусок галенита",
+        "chunks of galena" : "куски галенита",
+        "chunk of hematite" : "кусок гематита",
+        "chunks of hematite" : "куски гематита",
+        "copper pickaxe" : "медная кирка",
+        "bone pickaxe" : "костяная кирка",
+        "leveled boulder anvil" : "ровная каменная наковальня",
+        "black sand" : "черный песок"
+    },
+    "descriptions" : {
+        "A large chunk of copper, in its native state.  It only needs to be worked into a more usable shape." : "Это большой медный самородок. Остается переплавить его во что-то полезное. ",
+        "A large chunk of silver, in its native state.  It only needs to be molded into a more usable shape." : "Это большой серебряный самородок. Остается переплавить его во что-то полезное. ",
+        "A large chunk of native gold, a rare find.  It only needs to be molded into a more usable shape." : "Редкая находка! Это большой золотого самородок. Остается переплавить его во что-то полезное. ",
+        "A large chunk of native aluminum, which would have been priceless before other ways to obtain aluminum were invented.  It needs to be cast into an ingot." : "Большой кусок самородного алюминия. До изобретения современных методов добычи алюминия, такой самородок был бы бесценен. Сейчас же стоит отлить его в слиток.",
+        "A large chunk of cassiterite, an ore of tin.  It only needs to be smelted into a usable form." : "Это большой кусок касситерита - минерала, из которого добывается олово. Остается только выплавить из него ценный металл.",
+        "A large chunk of galena, a lead ore with small amounts of silver.  It only needs to be smelted into a usable form." : "Это большой кусок галенита - минерала, содержащегося серебро и свинец.  Остается только выплавить из него ценные металлы.",
+        "A large chunk of hematite, an ore of iron.  It only needs to be smelted into a usable form." : "Это большой кусок гематита. Вы видите в нем красные железные прожилки.  Остается только выплавить из него ценный металл.",
+        "This is a handmade copper pickaxe, suitable for breaking up hard things or (with enough skill) hard targets.  Strike the earth!" : "Это самодельная медная кирка, подходящая для разрушения твердых предметов или (при достаточном мастерстве) твердых противников...",
+        "This is a primitive pickaxe, traditionally made from antler or bone, and fire-hardened for greater hardness.  It will wear out with use, but still suitable for striking the earth." : "Это примитивная кирка, традиционно изготавливающаяся из оленьего рога или кости. Для большей твердости её закаляют огнем. Она будет изнашиваться по мере использования, но все еще пригоден для добычи руды.",
+        "A handful of sand, rich with minerals eroded from a deposit somewhere upstream.  Not as useful in this state, but might be a source of magnetite." : "Горсть богатого минералами песка. Скорее всего он вымывается из залежей где-то выше по течению. В таком состоянии он не особо полезен, однако из него можно добыть магнетит."
+    }
+  }
+]
